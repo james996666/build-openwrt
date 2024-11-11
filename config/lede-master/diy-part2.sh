@@ -30,7 +30,6 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 #
 # Add luci-app-amlogic
 svn co https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
-# Add luci-app-mihomo
 svn co https://github.com/morytyann/OpenWrt-mihomo.git packages/luci-app-mihomo
 
 # Fix runc version error
